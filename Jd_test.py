@@ -13,7 +13,7 @@ time.sleep(5)
 
 for i in range(int(num)):
       brow.find_by_text('点击评价').click()
-      brow.find_by_text(u'商品是否给力').click()
+      #brow.find_by_text(u'商品是否给力').click()
       #brow.fill('感觉还不错')
       #brow.find_by_text("评分").mouse_over()
       time.sleep(30)
